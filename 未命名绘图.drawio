@@ -1,1 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T03:03:42.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.2.3" etag="idl-Sf1UKN7vqf2X043f" type="github"><diagram id="pPxB0PGIgZuIq64soOBE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-07T09:08:02.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="6sC4wLjUwRruQyj8c5uP" version="20.2.3" type="github">
+  <diagram id="pPxB0PGIgZuIq64soOBE" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CEHPmeN0W-gqeh25Ikgf-1" target="CEHPmeN0W-gqeh25Ikgf-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-9" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CEHPmeN0W-gqeh25Ikgf-8">
+          <mxGeometry x="0.1333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEHPmeN0W-gqeh25Ikgf-1" target="CEHPmeN0W-gqeh25Ikgf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CEHPmeN0W-gqeh25Ikgf-12">
+          <mxGeometry x="-0.24" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-1" value="是否从job传入参数" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CEHPmeN0W-gqeh25Ikgf-2" target="CEHPmeN0W-gqeh25Ikgf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEHPmeN0W-gqeh25Ikgf-3" target="CEHPmeN0W-gqeh25Ikgf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-3" value="获取删除数据&lt;br&gt;时间范围" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEHPmeN0W-gqeh25Ikgf-10" target="CEHPmeN0W-gqeh25Ikgf-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-10" value="解析传入的日期&lt;br&gt;和taskid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="305" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CEHPmeN0W-gqeh25Ikgf-15" target="CEHPmeN0W-gqeh25Ikgf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-15" value="分页查询待删除&lt;br&gt;时间范围内&lt;br&gt;税号和taskid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="490" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEHPmeN0W-gqeh25Ikgf-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="750" />
+              <mxPoint x="400" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-21" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CEHPmeN0W-gqeh25Ikgf-20">
+          <mxGeometry x="-0.26" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEHPmeN0W-gqeh25Ikgf-16" target="CEHPmeN0W-gqeh25Ikgf-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="675" />
+              <mxPoint x="690" y="1380" />
+              <mxPoint x="410" y="1380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-25" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CEHPmeN0W-gqeh25Ikgf-24">
+          <mxGeometry x="0.0218" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-16" value="当前页&amp;lt;=总页数" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="630" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="CEHPmeN0W-gqeh25Ikgf-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="880" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-23" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1420" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-30" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CEHPmeN0W-gqeh25Ikgf-26" target="CEHPmeN0W-gqeh25Ikgf-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEHPmeN0W-gqeh25Ikgf-26" target="CEHPmeN0W-gqeh25Ikgf-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-26" value="是否结束日期&lt;br&gt;之后还有采集" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1000" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEHPmeN0W-gqeh25Ikgf-29" target="CEHPmeN0W-gqeh25Ikgf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-29" value="不删除" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1160" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.76;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CEHPmeN0W-gqeh25Ikgf-31" target="CEHPmeN0W-gqeh25Ikgf-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="1423" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-31" value="删除该税号和任务记录" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1160" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CEHPmeN0W-gqeh25Ikgf-37" value="依次对每个税号和taskid处理" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="810" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
