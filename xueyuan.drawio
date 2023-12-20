@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T09:01:55.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tC86qNKgw4wwx_2MoHFO" version="21.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-20T09:27:03.239Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="USYhPotsqbDlOvcs23aL" version="21.8.0" type="github" pages="2">
   <diagram name="第 1 页" id="1T-93aZBtWUWsuB6PJng">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
         <mxCell id="AY-U6F1RR3BvboshDzJG-6" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;数据导入到可视化图库，形成了以节点表示数据源、转换或者存储，边表示数据流动的方向的&lt;/span&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;易于理解的图形表示，即数据血缘图&lt;/font&gt;。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="422" width="460" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AY-U6F1RR3BvboshDzJG-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;动态计算与资源调整&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AY-U6F1RR3BvboshDzJG-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;依据数据血缘图和实时监控系统运行状态，包括数据流的速度、算子的计算时间、作业耗时等，动态计算与调整&lt;br&gt;资源分配，从而整体提高执行效率&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="552" width="460" height="75.5" as="geometry" />
         </mxCell>
         <mxCell id="AY-U6F1RR3BvboshDzJG-16" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -119,7 +119,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AY-U6F1RR3BvboshDzJG-9" value="S102" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="AY-U6F1RR3BvboshDzJG-16">
+        <mxCell id="AY-U6F1RR3BvboshDzJG-9" value="S202" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="AY-U6F1RR3BvboshDzJG-16">
           <mxGeometry x="50" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AY-U6F1RR3BvboshDzJG-17" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -135,7 +135,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AY-U6F1RR3BvboshDzJG-11" value="S104" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="AY-U6F1RR3BvboshDzJG-17">
+        <mxCell id="AY-U6F1RR3BvboshDzJG-11" value="S204" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="AY-U6F1RR3BvboshDzJG-17">
           <mxGeometry x="50" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AY-U6F1RR3BvboshDzJG-18" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -151,7 +151,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AY-U6F1RR3BvboshDzJG-13" value="S106" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="AY-U6F1RR3BvboshDzJG-18">
+        <mxCell id="AY-U6F1RR3BvboshDzJG-13" value="S206" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="AY-U6F1RR3BvboshDzJG-18">
           <mxGeometry x="50" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AY-U6F1RR3BvboshDzJG-19" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -167,7 +167,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AY-U6F1RR3BvboshDzJG-15" value="S108" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="AY-U6F1RR3BvboshDzJG-19">
+        <mxCell id="AY-U6F1RR3BvboshDzJG-15" value="S208" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="AY-U6F1RR3BvboshDzJG-19">
           <mxGeometry x="50" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
