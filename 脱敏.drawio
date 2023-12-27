@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T16:36:23.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="cukurbMI0Gxwuzce6OEg" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-27T16:56:29.866Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xKRqSlHhnek2-saqsjzf" version="22.1.11" type="github" pages="3">
   <diagram name="第 1 页" id="oYIk5BusF1NAlf0CJSbv">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,6 +117,125 @@
         </mxCell>
         <mxCell id="DvjulA3sB4XwN9mE1IQx-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;脱敏平台&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeWidth=0;perimeterSpacing=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="475" y="30" width="215" height="1120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WnTHNpzkzw5R4I5l4VtV" name="第 3 页">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oxvc8IEkgLfsTVQe9Yq0-1" target="oxvc8IEkgLfsTVQe9Yq0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oxvc8IEkgLfsTVQe9Yq0-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;脱敏代理代理数据请求，并将上下文信息及请求ID发送给脱敏平台&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="120" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oxvc8IEkgLfsTVQe9Yq0-2" target="oxvc8IEkgLfsTVQe9Yq0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oxvc8IEkgLfsTVQe9Yq0-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;脱敏平台由感知计算模块将上下文信息编码计算成决策感知参数和请求ID交由模型应用模块备用&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oxvc8IEkgLfsTVQe9Yq0-3" target="ihhpUFfgDPUdbAJzC1kc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oxvc8IEkgLfsTVQe9Yq0-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;脱敏代理将查询到的待脱敏数据和请求ID发送给模型应用模块生成脱敏策略&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="420" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ihhpUFfgDPUdbAJzC1kc-1" target="ihhpUFfgDPUdbAJzC1kc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;脱敏策略执行模块按照执行策略对待脱敏数据进行脱敏并交回给脱敏代理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="570" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ihhpUFfgDPUdbAJzC1kc-2" target="ihhpUFfgDPUdbAJzC1kc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;脱敏策略执行模块按照执行策略对待脱敏数据进行脱敏并交回给脱敏代理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="720" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;脱敏代理将已脱敏数据返回给业务数据请求方&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="880" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="160" as="sourcePoint" />
+            <mxPoint x="710" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="160" />
+              <mxPoint x="630" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-10" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="310" as="sourcePoint" />
+            <mxPoint x="710" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="310" />
+              <mxPoint x="630" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="631" y="460" as="sourcePoint" />
+            <mxPoint x="711" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="681" y="460" />
+              <mxPoint x="631" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="609" as="sourcePoint" />
+            <mxPoint x="710" y="549" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="609" />
+              <mxPoint x="630" y="559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="760" as="sourcePoint" />
+            <mxPoint x="710" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="760" />
+              <mxPoint x="630" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="631" y="921" as="sourcePoint" />
+            <mxPoint x="711" y="861" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="681" y="921" />
+              <mxPoint x="631" y="871" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;S1002&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="86" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-16" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;S1004&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="236" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;S1006&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;S1008&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="711" y="533" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;S1010&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="712" y="687" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhpUFfgDPUdbAJzC1kc-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;S1012&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="712" y="846" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
